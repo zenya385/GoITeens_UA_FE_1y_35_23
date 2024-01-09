@@ -1,0 +1,26 @@
+p {
+  color: aquamarine;
+  /* background-color: greenyellow; */
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+
+  color: blueviolet;
+  /* background-color: red; */
+}
+
+a[href^="https"][class] {
+  color: rgb(150, 136, 164);
+}
+
+#tex-1 {
+  color: rgb(37, 152, 27);
+}
+.text {
+  color: rgb(226, 186, 43);
+}
+p {
+  color: rgb(36, 172, 213);
+}
