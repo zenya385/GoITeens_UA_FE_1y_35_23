@@ -1,3 +1,11 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  /* color: currentColor; */
+}
+
 p {
   color: aquamarine;
   /* background-color: greenyellow; */
@@ -6,7 +14,6 @@ p {
 p {
   font-size: 25px;
   font-weight: bold;
-
   color: blueviolet;
   /* background-color: red; */
 }
@@ -18,9 +25,43 @@ a[href^="https"][class] {
 #tex-1 {
   color: rgb(37, 152, 27);
 }
+
 .text {
   color: rgb(226, 186, 43);
 }
+
 p {
   color: rgb(36, 172, 213);
+}
+
+body > h1 {
+  color: rgb(0, 255, 60);
+}
+
+body {
+  color: darkred;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.post {
+  color: green;
+}
+
+article:hover {
+  /* background-color: #f89b4d; */
+}
+
+.post:hover {
+  color: red;
+  /* font-size: 50px; */
+}
+
+/* .item:hover a {
+  color: red;
+} */
+
+.item:nth-child(2n + 5) a {
+  color: rgb(92, 226, 43);
 }

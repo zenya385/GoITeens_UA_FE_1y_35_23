@@ -1,0 +1,20 @@
+.wrap {
+  text-align: center;
+}
+h2:nth-child(1) {
+  font-family: Kaushan Script;
+  font-size: 30px;
+}
+h2:nth-child(2) {
+  font-family: Montserrat, serif;
+  font-weight: 500;
+}
+h2:nth-child(3) {
+  font-family: Montserrat;
+  font-style: italic;
+}
+h2:nth-child(4) {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 10px;
+}
