@@ -2,19 +2,42 @@
   text-align: center;
 }
 h2:nth-child(1) {
-  font-family: Kaushan Script;
-  font-size: 30px;
-}
-h2:nth-child(2) {
   font-family: Montserrat, serif;
   font-weight: 500;
 }
+h2:nth-child(2) {
+  font-family: Montserrat, serif;
+  font-weight: 600;
+}
 h2:nth-child(3) {
-  font-family: Montserrat;
-  font-style: italic;
+  font-family: Montserrat, serif;
+  font-weight: 700;
 }
 h2:nth-child(4) {
   font-family: Arial;
   font-style: italic;
   font-size: 10px;
+}
+
+.text {
+  color: #c8c3c3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  /* text-shadow: 2px 2px 4px #000000;*/
+  text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+}
+
+pre::first-letter {
+  color: red;
+  font-style: 36px;
+  text-transform: uppercase;
+}
+
+pre::selection {
+  background-color: green;
+  color: aqua;
 }
