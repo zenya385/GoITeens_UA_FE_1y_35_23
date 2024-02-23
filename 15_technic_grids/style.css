@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -46,7 +46,7 @@ body {
 }
 
 .item {
-  width: calc((100% - 8 * 15px) / 4);
+  flex-basis: calc((100% - 8 * 15px) / 4);
 
   text-align: center;
   background-color: #1bdfab;
