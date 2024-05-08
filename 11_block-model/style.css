@@ -86,13 +86,15 @@ main {
 }
 
 /** /контейнер для центрування контенту, розміри згідно макету/ */
-/* .container {
-  margin-left: auto;
+.container {
+  /* margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; */
   width: 1200px;
-} */
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 /** // візуально приховати елементи */
 /* .visually-hidden {
@@ -147,4 +149,13 @@ border-color: #000; */
 
 a {
   width: 50px;
+}
+
+
+a{
+  color: currentColor;
+}
+footer{
+  background-color: black;
+  color: aliceblue;
 }
