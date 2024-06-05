@@ -1,0 +1,24 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.text {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #000;
+  font-size: 26px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.text:nth-child(2){
+   overflow: auto; 
+}

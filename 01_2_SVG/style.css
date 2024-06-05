@@ -1,0 +1,89 @@
+.icon-comp1 {
+  fill: greenyellow;
+}
+
+.icon-comp1:hover {
+  fill: red;
+}
+
+/* ======================================= */
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* outline: 2px dashed #2a2a2a; */
+  border-radius: 50%;
+  width: 650px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.wrap:hover {
+  background-color: #2fa5f4;
+}
+
+.icon-comp2 {
+  fill: greenyellow;
+}
+
+.wrap:hover .icon-comp2 {
+  fill: red;
+}
+
+/* =============================================== */
+
+.icon-comp3 {
+  fill: greenyellow;
+  border-radius: 50%;
+}
+
+.icon-comp3:hover {
+  fill: red;
+  background-color: #22e51b;
+}
+
+/* ========================icon-bg============================= */
+
+.icon-bg{
+ border: 1px solid #000; 
+ height: 250px;
+ width: 30%;
+ margin: 0 auto;
+ border-radius: 10px;
+ background-color:#ccc;
+ background-image: url(img/logo-6.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+}
+
+.icon-bg:hover{
+ background-color:#56e820;
+ color: red;
+}
+
+
+/* ============================social-list======================== */
+
+ul{
+  list-style: none;
+
+}
+a{
+  color: currentColor;
+}
+
+.social-list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* width: min-content; */
+  /* border: 1px solid #000; */
+/* color: #3be410; */
+fill: #56e820;
+}
+
+.social-item{
+  
+}

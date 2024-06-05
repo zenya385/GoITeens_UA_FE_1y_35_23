@@ -1,0 +1,252 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+main,
+body,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto;
+  line-height: normal;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* ===============header============= */
+
+.header {
+  display: flex;
+  padding: 17px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  color: #95e1d3;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.slice-logo {
+  color: #f38181;
+}
+
+.header-nav {}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-link {
+  color: #95e1d3;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-item {}
+
+.nav-link {}
+
+.nav-link:hover {
+  color: #f38181;
+}
+
+/* ===============services============== */
+.services {
+  color: #333;
+  font-weight: 400;
+
+  margin-top: 65px;
+}
+
+.services-subtitle {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+
+  text-align: center;
+}
+
+.services-title {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services-line {
+  width: 60px;
+  height: 4px;
+  background-color: #F38181;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 70px;
+}
+
+.services-item {
+  display: flex;
+  column-gap: 20px;
+  width: calc((100% - 2 * 70px) / 3);
+}
+
+.services-image {
+  align-self: start;
+}
+
+.wrap-descr {}
+
+.services-item-title {
+  /* uppercase */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+
+  margin-bottom: 20px;
+}
+
+.services-item-text {
+  color: #b6b6b6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.service-image {}
+
+/* ==========team============= */
+
+.team {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+.team-subtitle {
+  color: #333;
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.team-title {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  margin-top: 17px;
+}
+
+.team-line{
+  width: 60px;
+  height: 4px;
+  background-color: #F38181;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+.team-text {
+  color: #b6b6b6;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  width: 1104px;
+  margin: 0 auto;
+}
+
+.team-list {
+  margin-top: 27px;
+  display: flex;
+  gap: 30px;
+}
+
+.team-item {}
+
+.team-image {
+  margin-bottom: 30px;
+
+}
+
+.team-item-title {
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: all-small-caps;
+  margin-bottom: 11px;
+}
+
+.team-item-text {
+  color: #b6b6b6;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer {}
+
+.footer-copyrigth {
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Laaqiq {
+  color: #f38181;
+}
+
+.form {}
+
+.form-input {}
+
+.form-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
