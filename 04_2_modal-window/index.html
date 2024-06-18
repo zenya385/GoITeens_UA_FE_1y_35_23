@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Modal</title>
-</head>
-<body>
-    
-
-
-
+  </head>
+  <body>
     <button class="btn-open" data-modal-open>Відкрити модалку</button>
 
     <h1>Форма</h1>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-          <button class="btn" data-modal-close>Закрити</button>
-          <form name="signup_form" autocomplete="on" novalidate>
-            <label>
-              Email
-              <input type="email" name="email" placeholder="сюди потрібно ввести пошту"/>
-            </label>
-          
-            <label>
-              Password
-              <input type="password" name="password" />
-            </label>
-            <textarea name="" id=""></textarea>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn" data-modal-close>Закрити</button>
+        <form name="signup_form" autocomplete="on" novalidate>
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="сюди потрібно ввести пошту"
+            />
+          </label>
 
-            <label>
-              Age
-              <input type="number" name="age" value="0" min="18" max="120" />
-            </label>
+          <label>
+            Password
+            <input type="password" name="password" />
+          </label>
+          <textarea name="" id=""></textarea>
 
-            <textarea name="" id="" ></textarea>
-          
-            <button type="submit">Submit</button>
-          </form>
-        </div>
+          <label>
+            Age
+            <input type="number" name="age" value="0" min="18" max="120" />
+          </label>
+
+          <textarea name="" id=""></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
+    </div>
 
-  <script src="modal.js"></script>
-</body>
+    <script src="modal.js"></script>
+  </body>
 </html>
