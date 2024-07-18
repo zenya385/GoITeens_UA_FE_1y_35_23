@@ -1,0 +1,90 @@
+.services {
+  color: #333;
+  font-weight: 400;
+  margin-top: 65px;
+
+  &-subtitle {
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    text-align: center;
+    color: red;
+
+    &:hover {
+      color: green;
+    }
+  }
+}
+
+
+
+.services h3{}
+.services>ul>li{}
+
+
+
+
+
+
+// .services-subtitle {
+//   font-family: "Kaushan Script";
+//   font-size: 24px;
+//   text-align: center;
+//   color: red;
+// }
+
+.services-title {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services-line {
+  width: 60px;
+  height: 4px;
+  background-color: #f38181;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 70px;
+}
+
+.services-item {
+  display: flex;
+  column-gap: 20px;
+  width: calc((100% - 2 * 70px) / 3);
+}
+
+.services-image {
+  align-self: start;
+}
+
+.wrap-descr {
+}
+
+.services-item-title {
+  /* uppercase */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+
+  margin-bottom: 20px;
+}
+
+.services-item-text {
+  color: #b6b6b6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+.service-image {
+}

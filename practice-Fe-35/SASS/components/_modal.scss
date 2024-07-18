@@ -1,0 +1,68 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height: 100%;
+    background-color: rgba(0, 0, 0, 0.494);
+    opacity: 1;
+   }
+   
+  .backdrop.is-hidden {
+   opacity: 0;
+   pointer-events: none;
+   }
+  
+   .no-scroll {
+     overflow: hidden;
+     }
+     
+    
+  
+   .modal {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+   min-width: 400px;
+   min-height: 600px;
+    padding: 15px;
+    padding-top: 45px;
+    background-color: skyblue;
+    transform: translate(50%, -50%);
+   } 
+
+   .modal-btn{
+    position: absolute;
+    display: flex;
+    border: none;
+    top: 5px;
+    right: 5px;
+    // margin: 0;
+    padding: 0;
+   }
+  
+
+  //  ============= стилі форми ===================
+
+  .modal-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  } 
+
+  .modal-form input{
+    width: 100%;
+    height: 27px;
+    border-radius: 5px;
+  }
+
+  .modal-form label{
+    position: relative;
+  }
+
+  .modal-form svg{
+    position: absolute;
+    // top: 0;
+    right: 0;
+
+  }

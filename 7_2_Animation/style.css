@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    background-color: #30e2ef;
+    border-radius: 20px;
+
+    animation-name: changeBgColor;
+    animation-duration: 5000ms;
+
+}
+
+.flower{
+
+
+  animation-name: animationFlower;
+  animation-duration: 5s;
+  animation-delay: 250ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+}
+
+
+
+    @keyframes animationFlower {
+        0% {
+          
+        }
+        
+        20%{
+         transform: translate(200px, 200px) rotate(360deg);
+        }
+     
+        40%{
+          transform: translate(0, 200px);
+        }
+
+        50%{
+          transform: translate(200px, 0);
+        }
+      
+        60% {
+          transform: translate(200px, 200px);
+        }
+       
+        80% {
+          transform: translate(100px, 100px) perspective(400px) rotateX(-60deg) scale(5);
+        }
+
+        100% {
+          /* transform: translate(200px, 200px); */
+         
+        }
+      } 
+
+
+    @keyframes changeBgColor {
+        0% {
+          background-color: #800000;
+        }
+        10%{
+          background-color: #eda724;
+        }
+        20%{
+          background-color: #51e80b;
+        }
+        30%{
+          background-color: #0bf8b5;
+        }
+        40%{
+          background-color: #0a8ddf;
+        }
+      
+        50% {
+          background-color: rgb(6, 44, 155);
+        }
+        60% {
+          background-color: rgb(138, 13, 210);
+        }
+        70% {
+          background-color: rgb(195, 9, 212);
+        }
+        80% {
+          background-color: rgb(242, 16, 148);
+        }
+        90% {
+          background-color: rgb(255, 0, 72);
+        }
+        100% {
+          background-color: rgb(255, 0, 0);
+        }
+      } 

@@ -15,7 +15,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
     />
     <link rel="stylesheet" href="modern-normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body>
@@ -133,28 +134,28 @@
                 <ul class="team-social-list">
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#pinterest"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#instagram"></use>
                       </svg>
                     </a>
@@ -166,34 +167,34 @@
             <p class="team-item-text">Graphic Design</p>
           </li>
           <li class="team-item">
-             <div class="team-wrap-image">
+            <div class="team-wrap-image">
               <img class="team-image" src="img/second-man.jpg" alt="man" />
               <div class="team-overlay">
                 <ul class="team-social-list">
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#pinterest"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#instagram"></use>
                       </svg>
                     </a>
@@ -205,34 +206,34 @@
             <p class="team-item-text">Branding/UX design</p>
           </li>
           <li class="team-item">
-             <div class="team-wrap-image">
+            <div class="team-wrap-image">
               <img class="team-image" src="img/third-man.jpg" alt="man" />
               <div class="team-overlay">
                 <ul class="team-social-list">
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#pinterest"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="team-social-item">
                     <a href="" class="team-social-link">
-                      <svg width="26" height="26" >
+                      <svg width="26" height="26">
                         <use href="./img/sprite.svg#instagram"></use>
                       </svg>
                     </a>
@@ -258,43 +259,48 @@
       </form>
     </footer>
 
-<!-- ================== РОЗМІТКА МОДАЛКИ =============================== -->
+    <!-- ================== РОЗМІТКА МОДАЛКИ =============================== -->
 
-<div class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <button class="btn" data-modal-close>Закрити</button>
-    <!-- <form name="signup_form" autocomplete="on" novalidate>
-      <label>
-        Email
-        <input
-          type="email"
-          name="email"
-          placeholder="сюди потрібно ввести пошту"
-        />
-      </label>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close>
+          <svg width="20" height="20">
+            <use href="./img/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <form
+          class="modal-form"
+          name="signup_form"
+          autocomplete="on"
+          novalidate
+        >
+          <label>
+            <input
+              type="text"
+              name="name"
+              placeholder=" enter your name"
+            />
+        <svg width="25" height="25">
+          <use href="img/sprite.svg#person"></use>
+        </svg>
+          </label>
 
-      <label>
-        Password
-        <input type="password" name="password" />
-      </label>
-      <textarea name="" id=""></textarea>
+          <label>
+            <input type="password" name="password" />
+          </label>
+          <label>
+            <input type="number" name="age" value="0" min="18" max="120" />
+          </label>
 
-      <label>
-        Age
-        <input type="number" name="age" value="0" min="18" max="120" />
-      </label>
+          <textarea name="" id=""></textarea>
 
-      <textarea name="" id=""></textarea>
+          <button type="button">Submit</button>
+        </form>
 
-      <button type="button">Submit</button>
-    </form> -->
- 
- <h1>Це контент модального вікна</h1>
-  </div>
-</div>
+        <!-- <h1>Це контент модального вікна</h1> -->
+      </div>
+    </div>
 
-
-
-<script type="module" src="./js/modal.js"></script>
+    <script type="module" src="./js/modal.js"></script>
   </body>
 </html>
