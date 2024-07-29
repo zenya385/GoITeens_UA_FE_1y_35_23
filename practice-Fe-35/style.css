@@ -109,6 +109,7 @@ img {
 .services {
   color: #333;
   font-weight: 400;
+
   margin-top: 65px;
 }
 
@@ -157,6 +158,7 @@ img {
 }
 
 .services-item-title {
+  /* uppercase */
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -328,7 +330,7 @@ img {
 .form-input {
   /* display: inline-block;
   height: 100%; */
-  border: 1px solid #B6B6B6
+  border: 1px solid #b6b6b6;
 }
 
 .form-btn {
@@ -338,11 +340,10 @@ img {
   font-size: 14px;
   font-weight: 700;
   font-variant: all-small-caps;
-  background-color: #95E1D3;
-padding: 12px 38px;
-border: transparent;
+  background-color: #95e1d3;
+  padding: 12px 38px;
+  border: transparent;
 }
-
 
 /* ==================== стилі модалки ========================= */
 
@@ -350,30 +351,28 @@ border: transparent;
   position: fixed;
   top: 0;
   left: 0;
- width: 100%;
- height: 100%;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.494);
   opacity: 1;
- }
- 
+}
+
 .backdrop.is-hidden {
- opacity: 0;
- pointer-events: none;
- }
+  opacity: 0;
+  pointer-events: none;
+}
 
- .no-scroll {
-   overflow: hidden;
-   }
-   
-  
+.no-scroll {
+  overflow: hidden;
+}
 
- .modal {
+.modal {
   position: absolute;
   top: 50%;
   right: 50%;
- min-width: 400px;
- min-height: 600px;
+  min-width: 400px;
+  min-height: 600px;
   padding: 15px;
   background-color: skyblue;
   transform: translate(50%, -50%);
- } 
+}

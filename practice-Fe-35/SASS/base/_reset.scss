@@ -198,3 +198,27 @@ input,
 select {
   vertical-align: middle;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/** / футер прикріплений до низу сайту  body {display: flex;flex-direction: column;height: 100vh;min-height: 100vh;} */
+main {
+  flex: 1 0 auto;
+}
+
+body {
+}
+
+text {
+}
+
+.header-logo {
+}
+
+[class="active"] {
+}

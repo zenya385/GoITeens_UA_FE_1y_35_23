@@ -1,0 +1,25 @@
+.speciale {
+  margin-top: 100px;
+
+  &-title {
+    color: $primaryColorText;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  &-subtitle {
+    color: $secondColorText;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  &-text {
+    color: $thirdColorText;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+  }
+}

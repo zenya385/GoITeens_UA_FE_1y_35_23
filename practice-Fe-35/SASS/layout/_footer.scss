@@ -1,41 +1,40 @@
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 10px;
-  }
-  
-  .footer-copyrigth {
-    color: #333;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-  }
-  
-  .Laaqiq {
-    color: #f38181;
-  }
-  
-  .form {
-    display: flex;
-  }
-  
-  .form-input {
-    /* display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.footer-copyrigth {
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Laaqiq {
+  color: $activeColor;
+}
+
+.form {
+  display: flex;
+}
+
+.form-input {
+  /* display: inline-block;
     height: 100%; */
-    border: 1px solid #B6B6B6
-  }
-  
-  .form-btn {
-    color: #fff;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    font-variant: all-small-caps;
-    background-color: #95E1D3;
+  border: 1px solid #b6b6b6;
+}
+
+.form-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  background-color: #95e1d3;
   padding: 12px 38px;
   border: transparent;
-  }
-  
+}
