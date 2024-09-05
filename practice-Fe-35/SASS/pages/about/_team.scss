@@ -1,15 +1,14 @@
 .team {
-    text-align: center;
-    margin-top: 100px;
-  }
-  
+  text-align: center;
+  margin-top: 100px;
+
   .team-subtitle {
     color: #333;
     font-family: "Kaushan Script";
     font-size: 24px;
     font-weight: 400;
   }
-  
+
   .team-title {
     color: #333;
     font-family: Montserrat;
@@ -18,16 +17,16 @@
     font-variant: all-small-caps;
     margin-top: 17px;
   }
-  
+
   .team-wrap-image {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
   }
-  
+
   .team-image {
   }
-  
+
   .team-overlay {
     position: absolute;
     top: -10px;
@@ -51,16 +50,16 @@
     transition-timing-function: ease-in-out;
     /* transition: transform 250ms ease-in-out; */
   }
-  
+
   .team-wrap-image:hover > .team-overlay {
     transform: translate(0, 0);
   }
-  
+
   .team-social-list {
     display: flex;
     color: #f38181;
   }
-  
+
   .team-social-item {
     width: 57px;
     height: 57px;
@@ -69,42 +68,43 @@
     align-items: center;
     background-color: #fce38a;
   }
-  
+
   .team-social-item:hover {
     background-color: #95e1d3;
   }
   .team-social-link {
   }
-  
+
   .team-line {
     width: 60px;
     height: 4px;
     background-color: #f38181;
-    margin-top: 40px;
-    margin-bottom: 65px;
+    margin: 45px auto 65px auto;
+    // margin: 0 auto;
+    // margin-top: 40px;
+    // margin-bottom: 65px;
   }
-  
+
   .team-text {
     color: #b6b6b6;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
-    width: 1104px;
     margin: 0 auto;
   }
-  
+
   .team-list {
     margin-top: 27px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
   }
-  
-  .team-item {
-  }
-  
+
   .team-image {
   }
-  
+
   .team-item-title {
     color: #333;
     text-align: center;
@@ -114,7 +114,7 @@
     font-variant: all-small-caps;
     margin-bottom: 11px;
   }
-  
+
   .team-item-text {
     color: #b6b6b6;
     text-align: center;
@@ -122,3 +122,22 @@
     font-style: italic;
     font-weight: 300;
   }
+
+  @media screen and (min-width: 480px) {
+  }
+  @media (min-width: 768px) {
+    .team-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .team-item {
+      width: calc((100% - 1 * 30px) / 2);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .team-item {
+      width: calc((100% - 3 * 30px) / 3);
+    }
+  }
+}

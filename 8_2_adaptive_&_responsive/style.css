@@ -1,0 +1,34 @@
+body {
+  background-color: teal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* @media screen and (max-width: 480px) { */
+@media screen and (min-width: 480px) {
+  body {
+    background-color: tomato;
+  }
+
+  img {
+    /* display: none; */
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #42a7ee;
+  }
+
+  img {
+    /* display: none; */
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+  }
+}

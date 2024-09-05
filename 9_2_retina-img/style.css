@@ -1,0 +1,18 @@
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+/* .bg {
+  width: 200px;
+  height: 247px;
+  background-image: url(img/second-man.jpg);
+  background-size: 200px 247px;
+} */
+
+.bg {
+  background-image: url(img/second-man.jpg);
+  background-size: contain;
+  height: 500px;
+}

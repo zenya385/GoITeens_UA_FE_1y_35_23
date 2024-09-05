@@ -20,11 +20,13 @@
   </head>
 
   <body>
-    <text>
     <!-- a+nav>ul>li*5>a -->
 
     <header class="header container">
       <a href="/" class="header-logo"><span class="slice-logo">Mo</span>Go</a>
+      <svg class="header-menu" width="48" height="48" data-menu-open>
+        <use href="./img/sprite.svg#menu-burger"></use>
+      </svg>
       <nav class="header-nav">
         <ul class="nav-list">
           <li class="nav-item">
@@ -52,7 +54,10 @@
         <hr class="services-line" />
         <ul class="services-list">
           <li class="services-item">
-            <img class="services-image" src="img/alarm.svg" alt="logo" />
+            <!-- <img class="services-image" src="img/alarm.svg" alt="logo" /> -->
+            <svg>
+              <use href="img/sprite.svg#alarm"></use>
+            </svg>
             <div class="wrap-descr">
               <h4 class="services-item-title">photography</h4>
               <p class="services-item-text">
@@ -62,7 +67,10 @@
             </div>
           </li>
           <li class="services-item">
-            <img class="services-image" src="img/bar-graph.svg" alt="logo" />
+            <!-- <img class="services-image" src="img/bar-graph.svg" alt="logo" /> -->
+            <svg>
+              <use href="img/sprite.svg#paper"></use>
+            </svg>
             <div class="wrap-descr">
               <h4 class="services-item-title">photography</h4>
               <p class="services-item-text">
@@ -72,7 +80,10 @@
             </div>
           </li>
           <li class="services-item">
-            <img class="services-image" src="img/display.svg" alt="logo" />
+            <!-- <img class="services-image" src="img/display.svg" alt="logo" /> -->
+            <svg>
+              <use href="img/sprite.svg#marketing"></use>
+            </svg>
             <div class="wrap-descr">
               <h4 class="services-item-title">photography</h4>
               <p class="services-item-text">
@@ -82,7 +93,10 @@
             </div>
           </li>
           <li class="services-item">
-            <img class="service-image" src="img/paper.svg" alt="logo" />
+            <!-- <img class="services-image" src="img/paper.svg" alt="logo" /> -->
+            <svg>
+              <use href="img/sprite.svg#display"></use>
+            </svg>
             <div class="wrap-descr">
               <h4 class="services-item-title">photography</h4>
               <p class="services-item-text">
@@ -92,7 +106,10 @@
             </div>
           </li>
           <li class="services-item">
-            <img class="service-image" src="img/home.svg" alt="logo" />
+            <!-- <img class="services-image" src="img/home.svg" alt="logo" /> -->
+            <svg>
+              <use href="img/sprite.svg#home"></use>
+            </svg>
             <div class="wrap-descr">
               <h4 class="services-item-title">photography</h4>
               <p class="services-item-text">
@@ -102,11 +119,11 @@
             </div>
           </li>
           <li class="services-item">
-            <img
-              class="services-image"
-              src="img/digital-marketing.svg"
-              alt="logo"
-            />
+            <!-- <img class="services-image" src="img/digital-marketing.svg" alt="logo"            /> -->
+            <svg>
+              <use href="img/sprite.svg#alarm"></use>
+            </svg>
+
             <div class="wrap-descr">
               <h4 class="services-item-title">photography</h4>
               <p class="services-item-text">
@@ -130,7 +147,32 @@
         <ul class="team-list">
           <li class="team-item">
             <div class="team-wrap-image">
-              <img class="team-image" src="img/first-man.jpg" alt="man" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/first-man@1x.jpg 1x,
+                    ./img/desktop/first-man@2x.jpg 2x,
+                    ./img/desktop/first-man@3x.jpg 3x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/first-man@1xT.jpg 1x,
+                    ./img/tablet/first-man@2xT.jpg 2x,
+                    ./img/tablet/first-man@3xT.jpg 3x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobile/first-man@1x.jpg 1x,
+                    ./img/mobile/first-man@2x.jpg 2x,
+                    ./img/mobile/first-man@3x.jpg 3x
+                  "
+                />
+                <img class="team-image" src="img/first-man.jpg" alt="man" />
+              </picture>
               <div class="team-overlay">
                 <ul class="team-social-list">
                   <li class="team-social-item">
@@ -169,7 +211,32 @@
           </li>
           <li class="team-item">
             <div class="team-wrap-image">
-              <img class="team-image" src="img/second-man.jpg" alt="man" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/second-man@1x.jpg 1x,
+                    ./img/desktop/second-man@2x.jpg 2x,
+                    ./img/desktop/second-man@3x.jpg 3x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/second-man@1x.jpg 1x,
+                    ./img/tablet/second-man@2x.jpg 2x,
+                    ./img/tablet/second-man@3x.jpg 3x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobile/second-man@1x.jpg 1x,
+                    ./img/mobile/second-man@2x.jpg 2x,
+                    ./img/mobile/second-man@3x.jpg 3x
+                  "
+                />
+                <img class="team-image" src="img/second-man.jpg" alt="man" />
+              </picture>
               <div class="team-overlay">
                 <ul class="team-social-list">
                   <li class="team-social-item">
@@ -208,7 +275,32 @@
           </li>
           <li class="team-item">
             <div class="team-wrap-image">
-              <img class="team-image" src="img/third-man.jpg" alt="man" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/third-man@1x.jpg 1x,
+                    ./img/desktop/third-man@2x.jpg 2x,
+                    ./img/desktop/third-man@3x.jpg 3x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/third-man@1x.jpg 1x,
+                    ./img/tablet/third-man@2x.jpg 2x,
+                    ./img/tablet/third-man@3x.jpg 3x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobile/third-man@1x.jpg 1x,
+                    ./img/mobile/third-man@2x.jpg 2x,
+                    ./img/mobile/third-man@3x.jpg 3x
+                  "
+                />
+                <img class="team-image" src="img/third-man.jpg" alt="man" />
+              </picture>
               <div class="team-overlay">
                 <ul class="team-social-list">
                   <li class="team-social-item">
@@ -248,9 +340,11 @@
           </li>
         </ul>
       </section>
+
       <hr />
     </main>
-    <footer class="footer container">
+
+    <!-- <footer class="footer container">
       <p class="footer-copyrigth">
         © 2023 MoGo free PSD template by <span class="Laaqiq">Laaqiq</span>
       </p>
@@ -258,7 +352,35 @@
         <input type="text" class="form-input" />
         <button type="button" class="form-btn">Subscribe</button>
       </form>
-    </footer>
+    </footer> -->
+
+    <!-- ================== РОЗМІТКА MENU =============================== -->
+    <div class="backdrop is-hidden" data-menu>
+      <div class="modal">
+        <button class="modal-btn" data-menu-close>
+          <svg width="20" height="20">
+            <use href="./img/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <ul class="menu-nav-list">
+          <li class="menu-nav-item">
+            <a class="menu-nav-link active" href="index.html">ABOUT</a>
+          </li>
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="service.html">SERVICE</a>
+          </li>
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="work.html">WORK</a>
+          </li>
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="#" data-modal-open>CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <!-- ================== РОЗМІТКА МОДАЛКИ =============================== -->
 
@@ -293,11 +415,10 @@
 
           <button type="button">Submit</button>
         </form>
-
-        <!-- <h1>Це контент модального вікна</h1> -->
       </div>
     </div>
 
     <script type="module" src="./js/modal.js"></script>
+    <script type="module" src="./js/menu.js"></script>
   </body>
 </html>

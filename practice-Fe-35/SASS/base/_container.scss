@@ -1,4 +1,21 @@
 .container {
-    width: 1200px;
-    margin: 0 auto;
+  // width: 1200px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  // background-color: #c5ee32;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    // background-color: #20be0c;
   }
+  @media (min-width: 768px) {
+    width: 768px;
+    // background-color: #2ef1ea;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+    // background-color: #3051e6;
+  }
+}
